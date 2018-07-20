@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SIAPPay_Example' do
+  pod 'SIAPPay', :path => '../'
+
+  target 'SIAPPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

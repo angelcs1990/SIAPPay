@@ -1,0 +1,6 @@
+framework module SIAPPay {
+  umbrella header "SIAPPay.h"
+
+  export *
+  module * { export * }
+}

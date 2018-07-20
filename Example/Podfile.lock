@@ -1,0 +1,16 @@
+PODS:
+  - SIAPPay (0.1.0)
+
+DEPENDENCIES:
+  - SIAPPay (from `../`)
+
+EXTERNAL SOURCES:
+  SIAPPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SIAPPay: 7ddc00ddc6fc2c385cb20fbffc10733864cf7fac
+
+PODFILE CHECKSUM: fca15441841fc219b5679efbd06f1558407e0f4d
+
+COCOAPODS: 1.5.3

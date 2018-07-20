@@ -1,0 +1,6 @@
+framework module Pods_SIAPPay_Tests {
+  umbrella header "Pods-SIAPPay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

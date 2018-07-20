@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED74DC848CAE3ED892E0D3BB324BB36 /* SIAPPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD549E377EDEDC9059EEDB3CB1EEC7B8 /* SIAPPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BE8A7357064930DC730BBA02221621 /* SIAPPayError.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F90A0A3A24A4AC8FB88432135F5078 /* SIAPPayError.m */; };
+		3994449C855CF58FD9FED24E792AE490 /* SIAPReceiptRefreshService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFBF8005556F0764C9E5DA335265B15 /* SIAPReceiptRefreshService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A738D61F7837D47B9C2BD302111CB4F /* SIAPReceiptRefreshService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8099560928CEE3765CFA53BC3496BE72 /* SIAPReceiptRefreshService.m */; };
+		49A205B160AC4CDE25F6063D44ED2B5A /* SIAPPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC8E071F367DDFCFF5E34C6A1E9E93 /* SIAPPersistence.m */; };
+		563890BB90C281908031A65546633D68 /* SIAPPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */; };
+		64666B7920803E65ABEF4ED7BDC2EF96 /* SIAPPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFBCB4DDDC556BAF1F3FF964228873 /* SIAPPay-dummy.m */; };
+		66F3B1E36A21D68F3BF9AC77164A674A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */; };
+		7F6649C01DDCA81A03ABACA5FA60A70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9F345B3838ADA1F28D2B2ABF2B9C92BD /* Pods-SIAPPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A933E2AE834E20F3AA4CE52A100FF99 /* Pods-SIAPPay_Tests-dummy.m */; };
+		A3E8EFB24D66BBC94B1C3443E442E98D /* SIAPPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A428D407E46DD36938D1688208F641D5 /* SIAPPayError.h in Headers */ = {isa = PBXBuildFile; fileRef = 644C37D458F5CD0AB70490698BA11572 /* SIAPPayError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDAD9125B87FFC38B73BDA6B63C90E69 /* SIAPPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 9527BCCEFD01E79E5ECE2421AF227562 /* SIAPPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E1B1F3899B0C61CEA85D99F989F4CD /* Pods-SIAPPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFFCE4A5C377405CB5060010F7C059A /* Pods-SIAPPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0771AAE667D0282DEE895A7C9017C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DDAD3F4AB1EBED03F0F6B2150A9B8C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DEF9C859EEAD9FB499A136A3C41F9317 /* Pods-SIAPPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD388F64732383CC8A7AFC1633F9B4C /* Pods-SIAPPay_Example-dummy.m */; };
+		E0863C241C86C9AF945014A11E627B68 /* Pods-SIAPPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E32B02DC3A0396146C654E876D2CFD45 /* Pods-SIAPPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAF1798258FAE1EC3864E5B64AB0A0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68FB6ACB9A39D150BBD529C520C80F1;
+			remoteInfo = "Pods-SIAPPay_Example";
+		};
+		9DD5634D1D8F3648FF4196067202F644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87A5D26F08C9CEF6BA43987E33CFBA27;
+			remoteInfo = SIAPPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015D2F28D1E88D8F798225B4BD96BFD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030C97D1AA7614D5B27B548F26AFB46B /* Pods_SIAPPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SIAPPay_Tests.framework; path = "Pods-SIAPPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPay.m; path = SIAPPay/Classes/SIAPPay.m; sourceTree = "<group>"; };
+		2449170933231A0CA928B767FCD17DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B24C669B510B31EAAB536ACBAE0D77D /* SIAPPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIAPPay.xcconfig; sourceTree = "<group>"; };
+		2EFFCE4A5C377405CB5060010F7C059A /* Pods-SIAPPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIAPPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		407F28CA13F581B444110FF88EA927D6 /* Pods-SIAPPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Example-resources.sh"; sourceTree = "<group>"; };
+		442FC8C8CAA47BB3BA3CB4DA62DA644F /* Pods-SIAPPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4872AA1F51459F5D5B4123B1B99E4FAB /* Pods-SIAPPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A933E2AE834E20F3AA4CE52A100FF99 /* Pods-SIAPPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIAPPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E304E2A456358FC97078EF8839198FE /* Pods-SIAPPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIAPPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FD388F64732383CC8A7AFC1633F9B4C /* Pods-SIAPPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIAPPay_Example-dummy.m"; sourceTree = "<group>"; };
+		516F066CAF0E6E0013057C5C13D93BC7 /* Pods-SIAPPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIAPPay_Tests.modulemap"; sourceTree = "<group>"; };
+		57FA0C0573F79C582712AB69743DC3B0 /* SIAPPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SIAPPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58F90A0A3A24A4AC8FB88432135F5078 /* SIAPPayError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPayError.m; path = SIAPPay/Classes/SIAPPayError.m; sourceTree = "<group>"; };
+		592C8E950EA4615B2AA6C3FEFD915587 /* Pods-SIAPPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61998A9E973FB3AF535A2218E3062773 /* SIAPPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SIAPPay.modulemap; sourceTree = "<group>"; };
+		644C37D458F5CD0AB70490698BA11572 /* SIAPPayError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPPayError.h; path = SIAPPay/Classes/SIAPPayError.h; sourceTree = "<group>"; };
+		68C5E1B485C0EAD458C970A12D32C3AC /* Pods-SIAPPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69D35BC652B1B4A261DD90308DAA0BE9 /* SIAPPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAPPay-prefix.pch"; sourceTree = "<group>"; };
+		6C4DFB9DC1988AE70963560C32E78A2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D619023457AC43FEEC851368DDCB5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7761F3B75717439403C205D11472F4E6 /* Pods-SIAPPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIAPPay_Example.modulemap"; sourceTree = "<group>"; };
+		8099560928CEE3765CFA53BC3496BE72 /* SIAPReceiptRefreshService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPReceiptRefreshService.m; path = SIAPPay/Classes/SIAPReceiptRefreshService.m; sourceTree = "<group>"; };
+		83A9FB8A8469B63E55F8793C4BFD6467 /* Pods-SIAPPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIAPPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86EC8E071F367DDFCFF5E34C6A1E9E93 /* SIAPPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPersistence.m; path = SIAPPay/Classes/SIAPPersistence.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9527BCCEFD01E79E5ECE2421AF227562 /* SIAPPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPPersistence.h; path = SIAPPay/Classes/SIAPPersistence.h; sourceTree = "<group>"; };
+		9F4F9D6F7258EA3708688A182445D4DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFBF8005556F0764C9E5DA335265B15 /* SIAPReceiptRefreshService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPReceiptRefreshService.h; path = SIAPPay/Classes/SIAPReceiptRefreshService.h; sourceTree = "<group>"; };
+		A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPPay.h; path = SIAPPay/Classes/SIAPPay.h; sourceTree = "<group>"; };
+		AD549E377EDEDC9059EEDB3CB1EEC7B8 /* SIAPPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAPPay-umbrella.h"; sourceTree = "<group>"; };
+		B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SIAPPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B7D8801EBE4E161B0DF6EF81E48EE16B /* Pods-SIAPPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BC84DEADC62FD15455A2AA1B9EB5399D /* Pods-SIAPPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIAPPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1E6D651EDB2C361D517FE0743AA340D /* Pods_SIAPPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SIAPPay_Example.framework; path = "Pods-SIAPPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CFBCB4DDDC556BAF1F3FF964228873 /* SIAPPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIAPPay-dummy.m"; sourceTree = "<group>"; };
+		D85B31501A214CE34F88BF43574A3E8A /* SIAPPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SIAPPay.framework; path = SIAPPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E217ED6CEA7218DC994A2A29E977DBFD /* Pods-SIAPPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIAPPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E32B02DC3A0396146C654E876D2CFD45 /* Pods-SIAPPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIAPPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E893BCA647716E19095024D04838F458 /* Pods-SIAPPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6799CAAF0A9280CE41103D59036996 /* Pods-SIAPPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB3F402E4655CEFBF9A0502DF7DF90FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0771AAE667D0282DEE895A7C9017C70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1DB84C00C469B4FC1B18EF448FFD28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6649C01DDCA81A03ABACA5FA60A70B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D806EE5D6A2838F653A2923BBAF66DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD3F4AB1EBED03F0F6B2150A9B8C24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D20CEA6BA34E990185D89EB7C4249D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D619023457AC43FEEC851368DDCB5E9 /* LICENSE */,
+				2449170933231A0CA928B767FCD17DD1 /* README.md */,
+				57FA0C0573F79C582712AB69743DC3B0 /* SIAPPay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		353B40944BF784145B189CD8986E889B /* Pods-SIAPPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F9D6F7258EA3708688A182445D4DF /* Info.plist */,
+				7761F3B75717439403C205D11472F4E6 /* Pods-SIAPPay_Example.modulemap */,
+				BC84DEADC62FD15455A2AA1B9EB5399D /* Pods-SIAPPay_Example-acknowledgements.markdown */,
+				4E304E2A456358FC97078EF8839198FE /* Pods-SIAPPay_Example-acknowledgements.plist */,
+				4FD388F64732383CC8A7AFC1633F9B4C /* Pods-SIAPPay_Example-dummy.m */,
+				4872AA1F51459F5D5B4123B1B99E4FAB /* Pods-SIAPPay_Example-frameworks.sh */,
+				407F28CA13F581B444110FF88EA927D6 /* Pods-SIAPPay_Example-resources.sh */,
+				2EFFCE4A5C377405CB5060010F7C059A /* Pods-SIAPPay_Example-umbrella.h */,
+				68C5E1B485C0EAD458C970A12D32C3AC /* Pods-SIAPPay_Example.debug.xcconfig */,
+				592C8E950EA4615B2AA6C3FEFD915587 /* Pods-SIAPPay_Example.release.xcconfig */,
+			);
+			name = "Pods-SIAPPay_Example";
+			path = "Target Support Files/Pods-SIAPPay_Example";
+			sourceTree = "<group>";
+		};
+		483EA80234FD4D6E5D45C86C59E658AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E4F6AF47E16DBAF8ED594CCC18685B /* SIAPPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		51568B4159D63CC6D85AC4EA48DCC6AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				015D2F28D1E88D8F798225B4BD96BFD0 /* Info.plist */,
+				61998A9E973FB3AF535A2218E3062773 /* SIAPPay.modulemap */,
+				2B24C669B510B31EAAB536ACBAE0D77D /* SIAPPay.xcconfig */,
+				C6CFBCB4DDDC556BAF1F3FF964228873 /* SIAPPay-dummy.m */,
+				69D35BC652B1B4A261DD90308DAA0BE9 /* SIAPPay-prefix.pch */,
+				AD549E377EDEDC9059EEDB3CB1EEC7B8 /* SIAPPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SIAPPay";
+			sourceTree = "<group>";
+		};
+		5B131001D218F59DABB1571AA801E467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E6D651EDB2C361D517FE0743AA340D /* Pods_SIAPPay_Example.framework */,
+				030C97D1AA7614D5B27B548F26AFB46B /* Pods_SIAPPay_Tests.framework */,
+				D85B31501A214CE34F88BF43574A3E8A /* SIAPPay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78E4F6AF47E16DBAF8ED594CCC18685B /* SIAPPay */ = {
+			isa = PBXGroup;
+			children = (
+				B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */,
+				A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */,
+				13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */,
+				644C37D458F5CD0AB70490698BA11572 /* SIAPPayError.h */,
+				58F90A0A3A24A4AC8FB88432135F5078 /* SIAPPayError.m */,
+				9527BCCEFD01E79E5ECE2421AF227562 /* SIAPPersistence.h */,
+				86EC8E071F367DDFCFF5E34C6A1E9E93 /* SIAPPersistence.m */,
+				9FFBF8005556F0764C9E5DA335265B15 /* SIAPReceiptRefreshService.h */,
+				8099560928CEE3765CFA53BC3496BE72 /* SIAPReceiptRefreshService.m */,
+				29D20CEA6BA34E990185D89EB7C4249D /* Pod */,
+				51568B4159D63CC6D85AC4EA48DCC6AF /* Support Files */,
+			);
+			name = SIAPPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				483EA80234FD4D6E5D45C86C59E658AA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5B131001D218F59DABB1571AA801E467 /* Products */,
+				87364A7D38938A43EF5088BFC23EDA4A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87364A7D38938A43EF5088BFC23EDA4A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353B40944BF784145B189CD8986E889B /* Pods-SIAPPay_Example */,
+				F86D54635DB470DA9AECEE98AD39D801 /* Pods-SIAPPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F86D54635DB470DA9AECEE98AD39D801 /* Pods-SIAPPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4DFB9DC1988AE70963560C32E78A2D /* Info.plist */,
+				516F066CAF0E6E0013057C5C13D93BC7 /* Pods-SIAPPay_Tests.modulemap */,
+				E217ED6CEA7218DC994A2A29E977DBFD /* Pods-SIAPPay_Tests-acknowledgements.markdown */,
+				83A9FB8A8469B63E55F8793C4BFD6467 /* Pods-SIAPPay_Tests-acknowledgements.plist */,
+				4A933E2AE834E20F3AA4CE52A100FF99 /* Pods-SIAPPay_Tests-dummy.m */,
+				B7D8801EBE4E161B0DF6EF81E48EE16B /* Pods-SIAPPay_Tests-frameworks.sh */,
+				FA6799CAAF0A9280CE41103D59036996 /* Pods-SIAPPay_Tests-resources.sh */,
+				E32B02DC3A0396146C654E876D2CFD45 /* Pods-SIAPPay_Tests-umbrella.h */,
+				E893BCA647716E19095024D04838F458 /* Pods-SIAPPay_Tests.debug.xcconfig */,
+				442FC8C8CAA47BB3BA3CB4DA62DA644F /* Pods-SIAPPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-SIAPPay_Tests";
+			path = "Target Support Files/Pods-SIAPPay_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2858A7078B930310D7D55D1180548250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED74DC848CAE3ED892E0D3BB324BB36 /* SIAPPay-umbrella.h in Headers */,
+				A3E8EFB24D66BBC94B1C3443E442E98D /* SIAPPay.h in Headers */,
+				A428D407E46DD36938D1688208F641D5 /* SIAPPayError.h in Headers */,
+				BDAD9125B87FFC38B73BDA6B63C90E69 /* SIAPPersistence.h in Headers */,
+				3994449C855CF58FD9FED24E792AE490 /* SIAPReceiptRefreshService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFEDA8DC24F924270AC33905CD31E57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E1B1F3899B0C61CEA85D99F989F4CD /* Pods-SIAPPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9B68592C907AA94CDF61648EE388C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0863C241C86C9AF945014A11E627B68 /* Pods-SIAPPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87A5D26F08C9CEF6BA43987E33CFBA27 /* SIAPPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A168FD22E448D7AACE5C7E4708609FD /* Build configuration list for PBXNativeTarget "SIAPPay" */;
+			buildPhases = (
+				B9A39875C2C06913AB4480A031E8D73C /* Sources */,
+				CB3F402E4655CEFBF9A0502DF7DF90FC /* Frameworks */,
+				2858A7078B930310D7D55D1180548250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIAPPay;
+			productName = SIAPPay;
+			productReference = D85B31501A214CE34F88BF43574A3E8A /* SIAPPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A936A10A438C7140E737E2E9068DE6B5 /* Pods-SIAPPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167B4EB5995F0079743F12984BE584C9 /* Build configuration list for PBXNativeTarget "Pods-SIAPPay_Tests" */;
+			buildPhases = (
+				823730F4D2DDC6F4629500815631094C /* Sources */,
+				D1DB84C00C469B4FC1B18EF448FFD28C /* Frameworks */,
+				EA9B68592C907AA94CDF61648EE388C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9B0648D0299055F0FC662280301FE27 /* PBXTargetDependency */,
+			);
+			name = "Pods-SIAPPay_Tests";
+			productName = "Pods-SIAPPay_Tests";
+			productReference = 030C97D1AA7614D5B27B548F26AFB46B /* Pods_SIAPPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B68FB6ACB9A39D150BBD529C520C80F1 /* Pods-SIAPPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC019D7F3B95B94E0908EF4968CE8F4 /* Build configuration list for PBXNativeTarget "Pods-SIAPPay_Example" */;
+			buildPhases = (
+				CEB4CF456F3EE6C3CD8B7929472E5F5A /* Sources */,
+				D806EE5D6A2838F653A2923BBAF66DEA /* Frameworks */,
+				5CFEDA8DC24F924270AC33905CD31E57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748F86D1043E6F174688C0FB95B401FE /* PBXTargetDependency */,
+			);
+			name = "Pods-SIAPPay_Example";
+			productName = "Pods-SIAPPay_Example";
+			productReference = C1E6D651EDB2C361D517FE0743AA340D /* Pods_SIAPPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B131001D218F59DABB1571AA801E467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68FB6ACB9A39D150BBD529C520C80F1 /* Pods-SIAPPay_Example */,
+				A936A10A438C7140E737E2E9068DE6B5 /* Pods-SIAPPay_Tests */,
+				87A5D26F08C9CEF6BA43987E33CFBA27 /* SIAPPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823730F4D2DDC6F4629500815631094C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F345B3838ADA1F28D2B2ABF2B9C92BD /* Pods-SIAPPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9A39875C2C06913AB4480A031E8D73C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F3B1E36A21D68F3BF9AC77164A674A /* ReplaceMe.m in Sources */,
+				64666B7920803E65ABEF4ED7BDC2EF96 /* SIAPPay-dummy.m in Sources */,
+				563890BB90C281908031A65546633D68 /* SIAPPay.m in Sources */,
+				30BE8A7357064930DC730BBA02221621 /* SIAPPayError.m in Sources */,
+				49A205B160AC4CDE25F6063D44ED2B5A /* SIAPPersistence.m in Sources */,
+				3A738D61F7837D47B9C2BD302111CB4F /* SIAPReceiptRefreshService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB4CF456F3EE6C3CD8B7929472E5F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF9C859EEAD9FB499A136A3C41F9317 /* Pods-SIAPPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		748F86D1043E6F174688C0FB95B401FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SIAPPay;
+			target = 87A5D26F08C9CEF6BA43987E33CFBA27 /* SIAPPay */;
+			targetProxy = 9DD5634D1D8F3648FF4196067202F644 /* PBXContainerItemProxy */;
+		};
+		D9B0648D0299055F0FC662280301FE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SIAPPay_Example";
+			target = B68FB6ACB9A39D150BBD529C520C80F1 /* Pods-SIAPPay_Example */;
+			targetProxy = 3DAF1798258FAE1EC3864E5B64AB0A0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21326E9ECAE286A2B7852F90BF047941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C5E1B485C0EAD458C970A12D32C3AC /* Pods-SIAPPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIAPPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIAPPay_Example/Pods-SIAPPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29C460AB6D797693A0C2A9E4200658F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B24C669B510B31EAAB536ACBAE0D77D /* SIAPPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SIAPPay/SIAPPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIAPPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIAPPay/SIAPPay.modulemap";
+				PRODUCT_MODULE_NAME = SIAPPay;
+				PRODUCT_NAME = SIAPPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		320C7E6F4723E6E178327EB3F94391E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E893BCA647716E19095024D04838F458 /* Pods-SIAPPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIAPPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIAPPay_Tests/Pods-SIAPPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		451464FF5AB057379747DDF28D8AC48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442FC8C8CAA47BB3BA3CB4DA62DA644F /* Pods-SIAPPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIAPPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIAPPay_Tests/Pods-SIAPPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		97AB9B0B0D6B548D2B93BC52A62AED1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B24C669B510B31EAAB536ACBAE0D77D /* SIAPPay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SIAPPay/SIAPPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIAPPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIAPPay/SIAPPay.modulemap";
+				PRODUCT_MODULE_NAME = SIAPPay;
+				PRODUCT_NAME = SIAPPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5EFD4BEC79B58D985BB458EDF32F40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592C8E950EA4615B2AA6C3FEFD915587 /* Pods-SIAPPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SIAPPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SIAPPay_Example/Pods-SIAPPay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167B4EB5995F0079743F12984BE584C9 /* Build configuration list for PBXNativeTarget "Pods-SIAPPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320C7E6F4723E6E178327EB3F94391E8 /* Debug */,
+				451464FF5AB057379747DDF28D8AC48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A168FD22E448D7AACE5C7E4708609FD /* Build configuration list for PBXNativeTarget "SIAPPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AB9B0B0D6B548D2B93BC52A62AED1B /* Debug */,
+				29C460AB6D797693A0C2A9E4200658F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC019D7F3B95B94E0908EF4968CE8F4 /* Build configuration list for PBXNativeTarget "Pods-SIAPPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21326E9ECAE286A2B7852F90BF047941 /* Debug */,
+				C5EFD4BEC79B58D985BB458EDF32F40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

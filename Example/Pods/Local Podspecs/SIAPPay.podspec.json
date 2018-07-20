@@ -1,0 +1,22 @@
+{
+  "name": "SIAPPay",
+  "version": "0.1.0",
+  "summary": "A short description of SIAPPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/angelcs1990@sohu.com/SIAPPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "angelcs1990@sohu.com": "chens@zdsjclub.com"
+  },
+  "source": {
+    "git": "https://github.com/angelcs1990@sohu.com/SIAPPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SIAPPay/Classes/**/*"
+}

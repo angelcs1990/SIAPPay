@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   if $lib
     puts '---------binary-------'
     # s.public_header_files = 'DFCQRCode-0.1.1/ios/DFCQRCode.embeddedframework/DFCQRCode.framework/Versions/A/Headers/*.h'
-    s.ios.vendored_framework = "framework/#{s.version}/#{s.name}/ios/#{s.name}.embeddedframework/#{s.name}.framework"
+    s.ios.vendored_framework = "#{s.name}-#{s.version}/ios/#{s.name}.framework"
     # s.xcconfig = { "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/DFCQRCode/**\"" }
   else
     puts '.......source........'
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   end
 
   # 设置缓存里即有源码又有.framework
-  s.preserve_paths = "#{s.name}/Classes/**/*","#{s.name}/Assets/*.{png,xib,plist}","framework/#{s.version}/#{s.name}/ios/#{s.name}.embeddedframework/#{s.name}.framework"
+  s.preserve_paths = "#{s.name}/Classes/**/*","#{s.name}-#{s.version}/ios/#{s.name}.framework"
 
   s.frameworks = 'UIKit', 'StoreKit'
 end

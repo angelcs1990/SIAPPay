@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SIAPPay'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SIAPPay.'
+  s.summary          = '私有内购控件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,30 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/angelcs1990@sohu.com/SIAPPay'
+
+  $lib = ENV['use_lib']
+  s.homepage         = 'https://github.com/angelcs1990/SIAPPay'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'angelcs1990@sohu.com' => 'chens@zdsjclub.com' }
-  s.source           = { :git => 'https://github.com/angelcs1990@sohu.com/SIAPPay.git', :tag => s.version.to_s }
+  s.author           = { 'cs' => 'angelcs1990@sohu.com' }
+  s.source           = { :git => 'https://github.com/angelcs1990/SIAPPay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SIAPPay/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SIAPPay' => ['SIAPPay/Assets/*.png']
-  # }
+  if $lib
+    puts '---------binary-------'
+    # s.public_header_files = 'DFCQRCode-0.1.1/ios/DFCQRCode.embeddedframework/DFCQRCode.framework/Versions/A/Headers/*.h'
+    s.ios.vendored_framework = "framework/#{s.version}/#{s.name}/ios/#{s.name}.embeddedframework/#{s.name}.framework"
+    # s.xcconfig = { "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/DFCQRCode/**\"" }
+  else
+    puts '.......source........'
+    s.source_files = "#{s.name}/Classes/**/*"
+    s.public_header_files = "#{s.name}/Classes/**/*.h"
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # 设置缓存里即有源码又有.framework
+  s.preserve_paths = "#{s.name}/Classes/**/*","#{s.name}/Assets/*.{png,xib,plist}","framework/#{s.version}/#{s.name}/ios/#{s.name}.embeddedframework/#{s.name}.framework"
+
+  s.frameworks = 'UIKit', 'StoreKit'
 end

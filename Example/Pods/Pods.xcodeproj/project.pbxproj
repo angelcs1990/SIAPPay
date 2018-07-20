@@ -14,7 +14,6 @@
 		49A205B160AC4CDE25F6063D44ED2B5A /* SIAPPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC8E071F367DDFCFF5E34C6A1E9E93 /* SIAPPersistence.m */; };
 		563890BB90C281908031A65546633D68 /* SIAPPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */; };
 		64666B7920803E65ABEF4ED7BDC2EF96 /* SIAPPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CFBCB4DDDC556BAF1F3FF964228873 /* SIAPPay-dummy.m */; };
-		66F3B1E36A21D68F3BF9AC77164A674A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */; };
 		7F6649C01DDCA81A03ABACA5FA60A70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9F345B3838ADA1F28D2B2ABF2B9C92BD /* Pods-SIAPPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A933E2AE834E20F3AA4CE52A100FF99 /* Pods-SIAPPay_Tests-dummy.m */; };
 		A3E8EFB24D66BBC94B1C3443E442E98D /* SIAPPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,9 +45,9 @@
 
 /* Begin PBXFileReference section */
 		015D2F28D1E88D8F798225B4BD96BFD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		030C97D1AA7614D5B27B548F26AFB46B /* Pods_SIAPPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SIAPPay_Tests.framework; path = "Pods-SIAPPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030C97D1AA7614D5B27B548F26AFB46B /* Pods_SIAPPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIAPPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPay.m; path = SIAPPay/Classes/SIAPPay.m; sourceTree = "<group>"; };
-		2449170933231A0CA928B767FCD17DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2449170933231A0CA928B767FCD17DD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2B24C669B510B31EAAB536ACBAE0D77D /* SIAPPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIAPPay.xcconfig; sourceTree = "<group>"; };
 		2EFFCE4A5C377405CB5060010F7C059A /* Pods-SIAPPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIAPPay_Example-umbrella.h"; sourceTree = "<group>"; };
 		407F28CA13F581B444110FF88EA927D6 /* Pods-SIAPPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Example-resources.sh"; sourceTree = "<group>"; };
@@ -58,7 +57,7 @@
 		4E304E2A456358FC97078EF8839198FE /* Pods-SIAPPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIAPPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FD388F64732383CC8A7AFC1633F9B4C /* Pods-SIAPPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SIAPPay_Example-dummy.m"; sourceTree = "<group>"; };
 		516F066CAF0E6E0013057C5C13D93BC7 /* Pods-SIAPPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIAPPay_Tests.modulemap"; sourceTree = "<group>"; };
-		57FA0C0573F79C582712AB69743DC3B0 /* SIAPPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SIAPPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57FA0C0573F79C582712AB69743DC3B0 /* SIAPPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SIAPPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58F90A0A3A24A4AC8FB88432135F5078 /* SIAPPayError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPayError.m; path = SIAPPay/Classes/SIAPPayError.m; sourceTree = "<group>"; };
 		592C8E950EA4615B2AA6C3FEFD915587 /* Pods-SIAPPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,23 +66,22 @@
 		68C5E1B485C0EAD458C970A12D32C3AC /* Pods-SIAPPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		69D35BC652B1B4A261DD90308DAA0BE9 /* SIAPPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAPPay-prefix.pch"; sourceTree = "<group>"; };
 		6C4DFB9DC1988AE70963560C32E78A2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D619023457AC43FEEC851368DDCB5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D619023457AC43FEEC851368DDCB5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7761F3B75717439403C205D11472F4E6 /* Pods-SIAPPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SIAPPay_Example.modulemap"; sourceTree = "<group>"; };
 		8099560928CEE3765CFA53BC3496BE72 /* SIAPReceiptRefreshService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPReceiptRefreshService.m; path = SIAPPay/Classes/SIAPReceiptRefreshService.m; sourceTree = "<group>"; };
 		83A9FB8A8469B63E55F8793C4BFD6467 /* Pods-SIAPPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SIAPPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86EC8E071F367DDFCFF5E34C6A1E9E93 /* SIAPPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAPPersistence.m; path = SIAPPay/Classes/SIAPPersistence.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9527BCCEFD01E79E5ECE2421AF227562 /* SIAPPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPPersistence.h; path = SIAPPay/Classes/SIAPPersistence.h; sourceTree = "<group>"; };
 		9F4F9D6F7258EA3708688A182445D4DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFBF8005556F0764C9E5DA335265B15 /* SIAPReceiptRefreshService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPReceiptRefreshService.h; path = SIAPPay/Classes/SIAPReceiptRefreshService.h; sourceTree = "<group>"; };
 		A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAPPay.h; path = SIAPPay/Classes/SIAPPay.h; sourceTree = "<group>"; };
 		AD549E377EDEDC9059EEDB3CB1EEC7B8 /* SIAPPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAPPay-umbrella.h"; sourceTree = "<group>"; };
-		B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SIAPPay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		B7D8801EBE4E161B0DF6EF81E48EE16B /* Pods-SIAPPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SIAPPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BC84DEADC62FD15455A2AA1B9EB5399D /* Pods-SIAPPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIAPPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C1E6D651EDB2C361D517FE0743AA340D /* Pods_SIAPPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SIAPPay_Example.framework; path = "Pods-SIAPPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E6D651EDB2C361D517FE0743AA340D /* Pods_SIAPPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SIAPPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CFBCB4DDDC556BAF1F3FF964228873 /* SIAPPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIAPPay-dummy.m"; sourceTree = "<group>"; };
-		D85B31501A214CE34F88BF43574A3E8A /* SIAPPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SIAPPay.framework; path = SIAPPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85B31501A214CE34F88BF43574A3E8A /* SIAPPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIAPPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E217ED6CEA7218DC994A2A29E977DBFD /* Pods-SIAPPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SIAPPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E32B02DC3A0396146C654E876D2CFD45 /* Pods-SIAPPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SIAPPay_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E893BCA647716E19095024D04838F458 /* Pods-SIAPPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SIAPPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 		78E4F6AF47E16DBAF8ED594CCC18685B /* SIAPPay */ = {
 			isa = PBXGroup;
 			children = (
-				B4C36436C3EAC27E9419000FBA34F81C /* ReplaceMe.m */,
 				A2AD34BE4FF9070F4F43F3F28FA7C02D /* SIAPPay.h */,
 				13F1FBA6ED8760BC21180315BFC70A5E /* SIAPPay.m */,
 				644C37D458F5CD0AB70490698BA11572 /* SIAPPayError.h */,
@@ -379,7 +376,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66F3B1E36A21D68F3BF9AC77164A674A /* ReplaceMe.m in Sources */,
 				64666B7920803E65ABEF4ED7BDC2EF96 /* SIAPPay-dummy.m in Sources */,
 				563890BB90C281908031A65546633D68 /* SIAPPay.m in Sources */,
 				30BE8A7357064930DC730BBA02221621 /* SIAPPayError.m in Sources */,

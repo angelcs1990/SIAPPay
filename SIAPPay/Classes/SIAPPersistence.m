@@ -129,7 +129,7 @@
 - (void)debugOutput
 {
     NSArray<SIAPPersistenceModel *> *arr = [self fetchAllTransaction];
-    NSLog(@"未验证数量：%ld", arr.count);
+    NSLog(@"未验证数量：%ld", (long)arr.count);
     [arr enumerateObjectsUsingBlock:^(SIAPPersistenceModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NSLog(@"产品ID:%@ -- 识别号：%@", obj.productId, obj.transactionIdentifier);
     }];
